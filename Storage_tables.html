@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Mobile Web-app fullscreen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Meta tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <!--Title-->
+    <title>Utham's</title>
+
+    <!--CSS bundle -->
+    <link rel="stylesheet" media="all" href="css/bootstrap.css" />
+    <link rel="stylesheet" media="all" href="css/animate.css" />
+    <link rel="stylesheet" media="all" href="css/font-awesome.css" />
+    <link rel="stylesheet" media="all" href="css/ion-range-slider.css" />
+    <link rel="stylesheet" media="all" href="css/linear-icons.css" />
+    <link rel="stylesheet" media="all" href="css/magnific-popup.css" />
+    <link rel="stylesheet" media="all" href="css/owl.carousel.css" />
+    <link rel="stylesheet" media="all" href="css/theme.css" />
+
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+    <![endif]-->
+
+
+    <style>
+        .image img{
+            width: 170px;
+            height: 170px;
+        }
+        @media only screen and (min-width: 768px) {
+            .image img{
+            width: 250px;
+            height: 250px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page-loader">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div class="wrapper">
+
+        <!-- ======================== Navigation ======================== -->
+
+        <nav>
+
+            <div class="container">
+
+                <a href="./index.html" class="logo mt-2 pb-2"><img src="assets/images/Uttam's Logo - Col. Final.png" alt=""  width="115" height="30"/></a>
+
+                <!-- ==========  Top navigation ========== -->
+
+                <div class="navigation navigation-top clearfix">
+                    <ul>
+                        <!--add active class for current page-->
+                        <li class="left-side"><a href="./index.html" class="logo-icon"><img src="assets/images/Uttam's Logo - Col. Final.png" alt="Alternate Text" width="150" height="40"/></a></li>
+                        <li class="left-side"><a href="#">info@uthams.com</a></li>
+                        <li class="left-side"><a href="#">+91-9966500254</a></li>
+                    </ul>
+                </div>
+
+                <!-- ==========  Main navigation ========== -->
+
+                <div class="navigation navigation-main">
+                    <a href="#" class="open-menu"><i class="icon icon-menu"></i></a>
+
+                    <div class="floating-menu">
+                        <!--mobile toggle menu trigger-->
+                        <div class="close-menu-wrapper">
+                            <span class="close-menu"><i class="icon icon-cross"></i></span>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="./index.html">Home <span class="open-dropdown"></span></a>
+                            </li>
+                            <li>
+                                <a href="./about_us.html">About Us <span class="open-dropdown"></span></a>
+                            </li>
+                            <li>
+                                <a href="#">Products <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <div class="navbar-dropdown navbar-dropdown-single">
+                                    <div class="navbar-box">
+                                        <div class="box-full">
+                                            <div class="box clearfix">
+                                                <ul>
+                                                    <li><a href="./Manager_tables.html">Manager Tables</a></li>
+                                                    <li><a href="./Conference_tables.html">Conference Tables</a></li>
+                                                    <li><a href="./Work_station_tables.html">Work Station Tables</a></li>
+                                                    <li><a href="./Storage_tables.html">Storage Tables</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./contact.html">Contact Us<span class="open-dropdown"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ==========  Search wrapper ========== -->
+
+                
+
+                <!-- ==========  Login wrapper ========== -->
+
+                <div class="login-wrapper">
+                    <div class="h5">Sign in</div>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <a href="#forgotpassword" class="open-popup btn btn-main btn-sm">Forgot password?</a>
+                            <a href="#createaccount" class="open-popup btn btn-main btn-sm">Don't have an account?</a>
+                        </div>
+                        <button type="submit" class="btn btn-block btn-outline-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!-- ==========  Cart wrapper ========== -->
+
+                <div class="cart-wrapper">
+                    <div class="checkout">
+                        <div class="clearfix">
+
+                            <!--cart item-->
+
+                            <div class="row">
+
+                                <div class="cart-block cart-block-item clearfix">
+                                    <div class="image text-center mt-5">
+                                        <a href="product.html"><img src="assets/images/item-1.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="title">
+                                        <div><a href="product.html">Product item</a></div>
+                                        <small>Product category</small>
+                                    </div>
+                                    <div class="quantity">
+                                        <input type="number" value="2" class="form-control form-quantity" />
+                                    </div>
+                                    <div class="price">
+                                        <span class="final">$ 1.998</span>
+                                        <span class="discount">$ 2.666</span>
+                                    </div>
+                                    <!--delete-this-item-->
+                                    <span class="icon icon-cross icon-delete"></span>
+                                </div>
+
+                                <!--cart item-->
+
+                                <div class="cart-block cart-block-item clearfix">
+                                    <div class="image text-center mt-5">
+                                        <a href="product.html"><img src="assets/images/item-2.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="title">
+                                        <div><a href="product.html">Product item</a></div>
+                                        <small>Product category</small>
+                                    </div>
+                                    <div class="quantity">
+                                        <input type="number" value="2" class="form-control form-quantity" />
+                                    </div>
+                                    <div class="price">
+                                        <span class="final">$ 1.998</span>
+                                        <span class="discount">$ 2.666</span>
+                                    </div>
+                                    <!--delete-this-item-->
+                                    <span class="icon icon-cross icon-delete"></span>
+                                </div>
+
+                                <!--cart item-->
+
+                                <div class="cart-block cart-block-item clearfix">
+                                    <div class="image text-center mt-5">
+                                        <a href="product.html"><img src="assets/images/item-3.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="title">
+                                        <div><a href="product.html">Product item</a></div>
+                                        <small>Product category</small>
+                                    </div>
+                                    <div class="quantity">
+                                        <input type="number" value="2" class="form-control form-quantity" />
+                                    </div>
+                                    <div class="price">
+                                        <span class="final">$ 1.998</span>
+                                        <span class="discount">$ 2.666</span>
+                                    </div>
+                                    <!--delete-this-item-->
+                                    <span class="icon icon-cross icon-delete"></span>
+                                </div>
+
+                            </div>
+
+                            <hr />
+
+                            <!--cart prices -->
+
+                            <div class="clearfix">
+                                <div class="cart-block cart-block-footer clearfix">
+                                    <div>
+                                        <strong>Discount 15%</strong>
+                                    </div>
+                                    <div>
+                                        <span>$ 159,00</span>
+                                    </div>
+                                </div>
+
+                                <div class="cart-block cart-block-footer clearfix">
+                                    <div>
+                                        <strong>Shipping</strong>
+                                    </div>
+                                    <div>
+                                        <span>$ 30,00</span>
+                                    </div>
+                                </div>
+
+                                <div class="cart-block cart-block-footer clearfix">
+                                    <div>
+                                        <strong>VAT</strong>
+                                    </div>
+                                    <div>
+                                        <span>$ 59,00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr />
+
+                            <!--cart final price -->
+
+                            <div class="clearfix">
+                                <div class="cart-block cart-block-footer clearfix">
+                                    <div>
+                                        <strong>Total</strong>
+                                    </div>
+                                    <div>
+                                        <div class="h4 title">$ 1259,00</div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--cart navigation -->
+
+                            <div class="cart-block-buttons clearfix">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a href="products-grid.html" class="btn btn-outline-info">Continue shopping</a>
+                                    </div>
+                                    <div class="col-sm-6 text-right">
+                                        <a href="checkout-1.html" class="btn btn-outline-warning"><span class="icon icon-cart"></span> Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ========================  Header content ======================== -->
+        <section class="banner p-0">
+
+            <div class="container-fluid">
+
+                <div class="banner-image" style="background-image:url(assets/images/storage_furniture/show.jpeg)">
+                    <!--Header-->
+
+                    <header>
+                        <div class="container">
+
+                            <h2 class="h2 title">Storage Tables</h2>
+
+                        </div>
+                    </header>
+
+                    <!--Content-->
+
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-4">
+                                <a href="./contact.html" class="btn btn-clean">Contact for more details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!--/container-fluid-->
+
+        </section>
+        <div class="container pt-3">
+            <div class="row">
+
+                <!--Right content-->
+
+                <div class="col-12">
+
+                    <!--Products collection-->
+
+                    <div class="row">
+
+                        <!--Product item-->
+
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-1.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-2.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-3.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-4.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-5.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-6.jpg " alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-7.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-8.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-9.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-10.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-11.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-12.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-13.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-14.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-15.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-16.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-17.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-18.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-19.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-20.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-21.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-22.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-23.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-24.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-25.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-26.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-27.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-28.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-29.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-30.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-31.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-32.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-33.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-34.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-35.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-36.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-37.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-38.jpg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-39.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-40.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-41.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-42.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-43.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-44.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-45.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-46.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!--Product item-->
+                        <div class="col-6 col-lg-4" style="border-radius: 10px;">
+                            <article>
+                                <div class="figure-grid">
+                                    <div class="image text-center mt-5">
+                                            <img src="./assets/images/storage_furniture/s-47.jpeg" alt="" /> 
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--Product item-->
+
+                        
+                    </div>
+                </div> <!--/product items-->
+
+            </div><!--/row-->
+
+        </div>
+
+
+
+
+
+
+        <!-- ================== Footer  ================== -->
+
+        <footer>
+
+            <div class="container-fluid">
+
+                <div class="footer-wrap">
+
+                    <div class="container">
+
+                        <!--footer showroom-->
+                        <div class="footer-showroom">
+                            <div class="text-center">
+                                <a href="/"><img src="assets/images/Uttam's Logo - Col. Final.png" alt="" width="160" height="50" /></a>
+
+                            </div>
+                        </div>
+
+                        <!--footer links-->
+                        <div class="footer-links">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h5>categories</h5>
+                                    <ul>
+                                        <li><a href="./Manager_tables.html">Manager Tables</a></li>
+                                        <li><a href="./Conference_tables.html">Conference Tables</a></li>
+                                        <li><a href="./Work_station_tables.html">Work Station Tables</a></li>
+                                        <li><a href="./Storage_tables.html">Storage Tables</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <h5>Quick links</h5>
+                                    <ul>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Pricing</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2">
+                                    <h5>Office Address</h5>
+                                    <ul>
+                                        <li><a href="#">Paradise Circle, 1-7-241/11, SD Road,
+                                            Kalasiguda, Secunderabad,
+                                            Telangana 500003 </a></li>
+                                    </ul>
+                                </div>
+                                <div class="offset-md-3 col-md-3">
+                                    <h5>We Follow</h5>
+                                    <p><i>Furniture that is too obviously designed is very interesting, but too often belongs only in museums.</i></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--footer social-->
+
+                        <div class="footer-social">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href="#" target="_blank"><i class="fa fa-download"></i> Download Utham's Collections Catlog</a> &nbsp; | &nbsp; <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="#">Privacy policy</a>
+                                </div>
+                                <div class="col-sm-6 links">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+
+    </div> <!--/wrapper-->
+    
+    <!--Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/ion.rangeSlider.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="js/bigtext.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
